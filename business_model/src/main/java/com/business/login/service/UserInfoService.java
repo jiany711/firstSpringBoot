@@ -11,4 +11,5 @@ import java.util.List;
  */
 public interface UserInfoService {
     List<UserInfo> selectUserInfos();
+    void insertUserInfo(UserInfo userInfo);
 }

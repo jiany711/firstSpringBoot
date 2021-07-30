@@ -23,4 +23,11 @@ public class UserInfoServiceImpl implements UserInfoService {
     public List<UserInfo> selectUserInfos() {
         return userInfoMapper.selectUserInfos();
     }
+
+    @Override
+    public void insertUserInfo(UserInfo userInfo) {
+
+    }
+
+
 }
